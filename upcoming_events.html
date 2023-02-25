@@ -11,8 +11,8 @@
     <title>Amazing Events</title>
   </head>
   <body class="bg-info">
-    <header class="bg-danger">
-      <div class="container-sm bg-warning mt-4 d-flex flex-column align-items-center flex-xl-row justify-content-xl-between">
+    <header class="bg-danger sticky-top">
+      <div class="container-sm bg-warning pt-2 d-flex flex-column align-items-center flex-xl-row justify-content-xl-between">
         <a href="./index.html"><img class="img-fluid bg-secondary" src="./assets/img/logo.png" alt="logo" width="400px" /></a>
 
         <nav class="bg-secondary mt-4 d-flex flex-row flex-wrap justify-content-center gap-2">
@@ -31,14 +31,128 @@
       </div>
     </header>
 
-    <main class="container-sm bg-warning mt-4"></main>
+    <main class="container-sm bg-warning mt-4">
+      <div class="d-flex flex-column justify-content-between align-items-center gap-4 flex-lg-row">
+        <div class="btn-group-sm bg-secondary d-flex flex-column justify-content-between align-items-center gap-2 flex-sm-row" role="group" aria-label="Basic checkbox toggle button group">
+          <input type="checkbox" class="btn-check" id="category1" autocomplete="off" />
+          <label class="btn btn-outline-light px-3 py-2" for="category1">Category 1</label>
 
-    <footer class="bg-danger">
+          <input type="checkbox" class="btn-check" id="category2" autocomplete="off" />
+          <label class="btn btn-outline-light px-3 py-2" for="category2">Category 2</label>
+
+          <input type="checkbox" class="btn-check" id="category3" autocomplete="off" />
+          <label class="btn btn-outline-light px-3 py-2" for="category3">Category 3</label>
+
+          <input type="checkbox" class="btn-check" id="category4" autocomplete="off" />
+          <label class="btn btn-outline-light px-3 py-2" for="category4">Category 4</label>
+
+          <input type="checkbox" class="btn-check" id="category5" autocomplete="off" />
+          <label class="btn btn-outline-light px-3 py-2" for="category5">Category 5</label>
+        </div>
+
+        <div>
+          <form class="bg-secondary d-flex flex-row" role="search">
+            <input class="me-2 form-control" type="search" placeholder="Search..." aria-label="Search" />
+            <button class="btn btn-outline-light bi-search" type="submit"></button>
+          </form>
+        </div>
+      </div>
+
+      <div class="mt-4">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 g-2 g-lg-3 g-xl-4">
+          <div class="col">
+            <div class="card card-shadow bg-secondary h-100">
+              <img src="./assets/img/cinema.jpg" height="50%" class="card-img-top object-fit-cover" alt="event" />
+              <div class="card-body">
+                <h5 class="card-title">Title</h5>
+                <p class="card-text">Descriptive text</p>
+              </div>
+              <div class="card-footer d-flex flex-row justify-content-between align-items-center">
+                <small class="text-muted">Price $...</small>
+                <a href="./details.html" class="btn btn-primary">Details...</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-shadow bg-secondary h-100">
+              <img src="./assets/img/costume_party.jpg" height="50%" class="card-img-top object-fit-cover" alt="event" />
+              <div class="card-body">
+                <h5 class="card-title">Title</h5>
+                <p class="card-text">Descriptive text</p>
+              </div>
+              <div class="card-footer d-flex flex-row justify-content-between align-items-center">
+                <small class="text-muted">Price $...</small>
+                <a href="./details.html" class="btn btn-primary">Details...</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-shadow bg-secondary h-100">
+              <img src="./assets/img/food_fair.jpg" height="50%" class="card-img-top object-fit-cover" alt="event" />
+              <div class="card-body">
+                <h5 class="card-title">Title</h5>
+                <p class="card-text">Descriptive text</p>
+              </div>
+              <div class="card-footer d-flex flex-row justify-content-between align-items-center">
+                <small class="text-muted">Price $...</small>
+                <a href="./details.html" class="btn btn-primary">Details...</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-shadow bg-secondary h-100">
+              <img src="./assets/img/marathon.jpg" height="50%" class="card-img-top object-fit-cover" alt="event" />
+              <div class="card-body">
+                <h5 class="card-title">Title</h5>
+                <p class="card-text">Descriptive text</p>
+              </div>
+              <div class="card-footer d-flex flex-row justify-content-between align-items-center">
+                <small class="text-muted">Price $...</small>
+                <a href="./details.html" class="btn btn-primary">Details...</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-shadow bg-secondary h-100">
+              <img src="./assets/img/museum_tour.jpg" height="50%" class="card-img-top object-fit-cover" alt="event" />
+              <div class="card-body">
+                <h5 class="card-title">Title</h5>
+                <p class="card-text">Descriptive text</p>
+              </div>
+              <div class="card-footer d-flex flex-row justify-content-between align-items-center">
+                <small class="text-muted">Price $...</small>
+                <a href="./details.html" class="btn btn-primary">Details...</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-shadow bg-secondary h-100">
+              <img src="./assets/img/music_concert.jpg" height="50%" class="card-img-top object-fit-cover" alt="event" />
+              <div class="card-body">
+                <h5 class="card-title">Title</h5>
+                <p class="card-text">Descriptive text</p>
+              </div>
+              <div class="card-footer d-flex flex-row justify-content-between align-items-center">
+                <small class="text-muted">Price $...</small>
+                <a href="./details.html" class="btn btn-primary">Details...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-danger sticky-bottom">
       <div class="container-sm bg-warning mt-4 py-4 d-flex flex-column align-items-center gap-4 flex-sm-row justify-content-sm-between">
         <div class="bg-secondary d-flex flex-row gap-2 gap-sm-4">
-          <a href="https://www.instagram.com"><i class="bi-instagram footer-icono"></i></a>
-          <a href="https://www.facebook.com"><i class="bi-facebook footer-icono"></i></a>
-          <a href="https://www.whatsapp.com"><i class="bi-whatsapp footer-icono"></i></a>
+          <a href="https://www.instagram.com"><i class="bi-instagram footer-icon"></i></a>
+          <a href="https://www.facebook.com"><i class="bi-facebook footer-icon"></i></a>
+          <a href="https://www.whatsapp.com"><i class="bi-whatsapp footer-icon"></i></a>
         </div>
 
         <div class="bg-secondary">
