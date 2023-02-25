@@ -1,12 +1,34 @@
-/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"); */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  box-shadow: 2px 2px 4px #424242;
+}
+
+form input[type="search"] {
+  width: 150px;
+  transition: all 0.75s;
+}
+
+form input[type="search"]:focus {
+  width: 350px;
+}
 
 .form {
   width: 100%;
   max-width: 600px;
 }
 
+.card-shadow {
+  box-shadow: 2px 2px 4px #424242;
+}
+
 .footer-icon {
-  padding: 0.45em 0.5em;
+  padding: 0.3em 0.5em;
   border-radius: 50%;
   background-color: black;
   color: white;
