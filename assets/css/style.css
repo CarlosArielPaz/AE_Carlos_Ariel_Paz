@@ -5,9 +5,9 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-header {
-  /* box-shadow: 2px 2px 4px #424242; */
-}
+/* header {
+  box-shadow: 2px 2px 4px #424242;
+} */
 
 form input[type="search"] {
   width: 150px;
@@ -23,9 +23,9 @@ form input[type="search"]:focus {
   max-width: 600px;
 }
 
-.card-shadow {
-  /* box-shadow: 2px 2px 4px #424242; */
-}
+/* .card-shadow {
+  box-shadow: 2px 2px 4px #424242;
+} */
 
 .footer-icon {
   padding: 0.3em 0.5em;
