@@ -15,7 +15,9 @@
 
 > **Task-1**&emsp;➜&emsp;Branches and tags involved&emsp;![branch](./assets/img/icon/branch.svg)&ensp;[main](https://github.com/CarlosArielPaz/AE_Carlos_Ariel_Paz/tree/main)&emsp;![branch](./assets/img/icon/branch.svg)&ensp;[task-1](https://github.com/CarlosArielPaz/AE_Carlos_Ariel_Paz/tree/task-1)&emsp;![branch](./assets/img/icon/tag.svg)&ensp;[v0.1.0](https://github.com/CarlosArielPaz/AE_Carlos_Ariel_Paz/releases/tag/v0.1.0)
 
-&emsp;&emsp;![commit](./assets/img/icon/commit.svg)&ensp;2023-02-27 14:27 GMT-3&ensp;Commit&emsp;➜&emsp;![branch](./assets/img/icon/branch.svg)&ensp;task-1 : Upload development v0.1.0
+&emsp;&emsp;![commit](./assets/img/icon/commit.svg)&ensp;2023-02-27 14:48 GMT-3&ensp;Commit&emsp;➜&emsp;![branch](./assets/img/icon/branch.svg)&ensp;main : Merge with task-1
+
+&emsp;&emsp;![commit](./assets/img/icon/commit.svg)&ensp;2023-02-27 14:27 GMT-3&ensp;Commit&emsp;➜&emsp;![branch](./assets/img/icon/branch.svg)&ensp;[task-1 : Upload development v0.1.0](https://github.com/CarlosArielPaz/AE_Carlos_Ariel_Paz/commit/aa8444b3a28e762ae5f562685a3d236f2e177405)
 
 &emsp;&emsp;![commit](./assets/img/icon/commit.svg)&ensp;2023-02-25 16:02 GMT-3&ensp;Commit&emsp;➜&emsp;![branch](./assets/img/icon/branch.svg)&ensp;[task-1 : Improvements and changes](https://github.com/CarlosArielPaz/AE_Carlos_Ariel_Paz/commit/451a1b99d690a116ac7e362e0329fd6d947a363e)
 
