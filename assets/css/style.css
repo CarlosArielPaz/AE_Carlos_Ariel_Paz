@@ -3,11 +3,13 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: #f9f9f9;
 }
 
-/* header {
-  box-shadow: 2px 2px 4px #424242;
-} */
+header {
+  background-color: cadetblue;
+  box-shadow: 2px 2px 4px #ddd;
+}
 
 form input[type="search"] {
   width: 150px;
@@ -23,9 +25,23 @@ form input[type="search"]:focus {
   max-width: 600px;
 }
 
-/* .card-shadow {
-  box-shadow: 2px 2px 4px #424242;
-} */
+.btn-outline-category {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.card-title {
+  color: #d90368;
+}
+
+.card-shadow {
+  box-shadow: 2px 2px 4px #ddd;
+}
+
+.footer {
+  margin: 4em 0 0 0;
+  background-color: #eee;
+}
 
 .footer-icon {
   padding: 0.3em 0.5em;
@@ -33,4 +49,9 @@ form input[type="search"]:focus {
   background-color: black;
   color: white;
   font-size: 2em;
+  transition: all 0.5s;
+}
+
+.footer-icon:hover {
+  background-color: #d90368;
 }
