@@ -15,7 +15,9 @@
 
 > **Task-3**&emsp;➜&emsp;Branches and tags involved&emsp;![branch](./assets/img/icon/branch.svg)&ensp;[main](https://github.com/CarlosArielPaz/AE_Carlos_Ariel_Paz/tree/main)&emsp;![branch](./assets/img/icon/branch.svg)&ensp;[task-3](https://github.com/CarlosArielPaz/AE_Carlos_Ariel_Paz/tree/task-3)
 
-&emsp;&emsp;![commit](./assets/img/icon/commit.svg)&ensp;2023-03-12 20:18 GMT-3&ensp;Commit&emsp;➜&emsp;![branch](./assets/img/icon/branch.svg)&ensp;task-3 : Create branch
+&emsp;&emsp;![commit](./assets/img/icon/commit.svg)&ensp;2023-03-17 00:40 GMT-3&ensp;Commit&emsp;➜&emsp;![branch](./assets/img/icon/tag.svg)&ensp;task-3 : Upload development v0.3.0
+
+&emsp;&emsp;![commit](./assets/img/icon/commit.svg)&ensp;2023-03-12 20:18 GMT-3&ensp;Commit&emsp;➜&emsp;![branch](./assets/img/icon/branch.svg)&ensp;[task-3 : Create branch](https://github.com/CarlosArielPaz/AE_Carlos_Ariel_Paz/commit/7ef0d622fdb05036f16f2639d802505d0237e505)
 
 > **Task-2**&emsp;➜&emsp;Branches and tags involved&emsp;![branch](./assets/img/icon/branch.svg)&ensp;[main](https://github.com/CarlosArielPaz/AE_Carlos_Ariel_Paz/tree/main)&emsp;![branch](./assets/img/icon/branch.svg)&ensp;[task-2](https://github.com/CarlosArielPaz/AE_Carlos_Ariel_Paz/tree/task-2)&emsp;![branch](./assets/img/icon/tag.svg)&ensp;[v0.2.0](https://github.com/CarlosArielPaz/AE_Carlos_Ariel_Paz/releases/tag/v0.2.0)
 

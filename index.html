@@ -26,7 +26,7 @@
         </nav>
       </div>
 
-      <div class="container-sm mt-2 py-3 d-flex flex-row justify-content-between align-items-center">
+      <div class="container-sm mt-2 py-4 d-flex flex-row justify-content-between align-items-center">
         <a href="./stats.html"><i class="bi-chevron-left text-white-50 display-4"></i></a>
         <a href="#" class="display-5 text-white text-decoration-none"><strong>Home</strong></a>
         <a href="./upcoming_events.html"><i class="bi-chevron-right text-white-50 display-4"></i></a>
@@ -35,33 +35,39 @@
 
     <main class="container-sm mt-5">
       <div class="d-flex flex-column justify-content-between align-items-center gap-4 flex-lg-row">
-        <div class="btn-group-sm d-flex flex-column justify-content-between align-items-center gap-2 flex-sm-row" role="group" aria-label="Basic checkbox toggle button group">
-          <input type="checkbox" class="btn-check" id="category1" autocomplete="off" />
-          <label class="btn btn-outline-category px-3 py-2" for="category1">Category 1</label>
+        <div class="btn-group-sm d-flex flex-column justify-content-between align-items-center align-items-stretch gap-2 flex-sm-row" role="group" aria-label="Basic checkbox toggle button group" id="categoriesContainer">
+          <input type="checkbox" class="btn-check" id="category1" name="Book Exchange" autocomplete="off" />
+          <label class="btn btn-outline-category px-3 py-2" for="category1">Book Exchange</label>
 
-          <input type="checkbox" class="btn-check" id="category2" autocomplete="off" />
-          <label class="btn btn-outline-category px-3 py-2" for="category2">Category 2</label>
+          <input type="checkbox" class="btn-check" id="category2" name="Cinema" autocomplete="off" />
+          <label class="btn btn-outline-category px-3 py-2" for="category2">Cinema</label>
 
-          <input type="checkbox" class="btn-check" id="category3" autocomplete="off" />
-          <label class="btn btn-outline-category px-3 py-2" for="category3">Category 3</label>
+          <input type="checkbox" class="btn-check" id="category3" name="Costume Party" autocomplete="off" />
+          <label class="btn btn-outline-category px-3 py-2" for="category3">Costume Party</label>
 
-          <input type="checkbox" class="btn-check" id="category4" autocomplete="off" />
-          <label class="btn btn-outline-category px-3 py-2" for="category4">Category 4</label>
+          <input type="checkbox" class="btn-check" id="category4" name="Food Fair" autocomplete="off" />
+          <label class="btn btn-outline-category px-3 py-2" for="category4">Food Fair</label>
 
-          <input type="checkbox" class="btn-check" id="category5" autocomplete="off" />
-          <label class="btn btn-outline-category px-3 py-2" for="category5">Category 5</label>
+          <input type="checkbox" class="btn-check" id="category5" name="Museum" autocomplete="off" />
+          <label class="btn btn-outline-category px-3 py-2" for="category5">Museum</label>
+
+          <input type="checkbox" class="btn-check" id="category6" name="Music Concert" autocomplete="off" />
+          <label class="btn btn-outline-category px-3 py-2" for="category6">Music Concert</label>
+
+          <input type="checkbox" class="btn-check" id="category7" name="Race" autocomplete="off" />
+          <label class="btn btn-outline-category px-3 py-2" for="category7">Race</label>
         </div>
 
         <div>
-          <form class="d-flex flex-row" role="search">
-            <input class="me-2 form-control" type="search" placeholder="Search..." aria-label="Search" />
-            <button class="btn btn-outline-category bi-search" type="submit"></button>
+          <form class="d-flex flex-row" role="search" id="searchContainer">
+            <input class="me-2 form-control" type="search" placeholder="Search..." aria-label="Search" spellcheck="false" id="searchInput" />
+            <button class="btn btn-outline-category bi-search" type="submit" id="searchButton"></button>
           </form>
         </div>
       </div>
 
       <div class="mt-4">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 g-2 g-lg-3 g-xl-4" id="cards"></div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 g-2 g-lg-3 g-xl-4" id="cardsContainer"></div>
       </div>
     </main>
 

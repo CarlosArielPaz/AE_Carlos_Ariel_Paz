@@ -11,13 +11,33 @@ header {
   box-shadow: 2px 2px 4px #ddd;
 }
 
-form input[type="search"] {
-  width: 150px;
-  transition: all 0.75s;
+#categoriesContainer > input[type="checkbox"]:checked + label {
+  border-color: #d90368;
+  background-color: #d90368;
+  color: #fff;
 }
 
-form input[type="search"]:focus {
-  width: 350px;
+#categoriesContainer > label {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#categoriesContainer > label:hover {
+  border-color: #d90368;
+  color: #d90368;
+}
+
+#searchContainer > input[type="search"] {
+  width: 150px;
+}
+
+#searchContainer > input[type="search"]:hover {
+  border-color: #d90368;
+}
+
+#searchContainer > input[type="search"]:focus {
+  background-color: #d90368;
+  color: #fff;
 }
 
 .form {
@@ -25,16 +45,11 @@ form input[type="search"]:focus {
   max-width: 600px;
 }
 
-.btn-outline-category {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.card-title {
+#cardsContainer .card-title {
   color: #d90368;
 }
 
-.card-shadow {
+#cardsContainer .card-shadow {
   box-shadow: 2px 2px 4px #ddd;
 }
 
