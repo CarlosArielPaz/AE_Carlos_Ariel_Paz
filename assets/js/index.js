@@ -86,7 +86,6 @@ function cardsRender() {
 
 // Data
 let data;
-let dataCurrentDate;
 
 //fetch("https://mindhub-xj03.onrender.com/api/amazing")
 fetch("./assets/json/amazing.json")
@@ -100,7 +99,6 @@ fetch("./assets/json/amazing.json")
   .then((json) => {
     // Data
     data = json;
-    dataCurrentDate = new Date(data.currentDate);
 
     // Cards ➜ Render (initialize)
     cardsRender();

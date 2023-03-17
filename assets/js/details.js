@@ -13,7 +13,7 @@ function cardRender(id) {
   cardsContainer.innerHTML = `
         <div class="col">
             <div class="card card-shadow h-100">
-                <img src="${element.image}" height="200px" class="card-img-top object-fit-cover" alt="event" />
+                <img src="${element.image}" height="400px" class="card-img-top object-fit-cover" alt="event" />
                 <div class="card-body">
                     <h3 class="card-title fw-bold">${element.name}</h3>
                     <h5 class="card-title">${element.category}</h5>
@@ -31,4 +31,26 @@ function cardRender(id) {
         `;
 }
 
-cardRender(id);
+// Data
+let data;
+
+//fetch("https://mindhub-xj03.onrender.com/api/amazing")
+fetch("./assets/json/amazing.json")
+  .then((response) => {
+    // Response
+    if (!response.ok) throw new Error("Network response was not OK");
+
+    // JSON
+    return response.json();
+  })
+  .then((json) => {
+    // Data
+    data = json;
+
+    // Cards ➜ Render (id)
+    cardRender(id);
+  })
+  .catch((err) => {
+    // Cards ➜ Container (update)
+    cardsContainer.innerHTML = `<p class="pt-4 w-100 text-center text-muted display-6">‟${err}”...</h6>`;
+  });
