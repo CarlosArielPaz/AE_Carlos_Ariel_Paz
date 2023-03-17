@@ -1,6 +1,6 @@
-// Location ➜ Parameters
-const parameters = new URLSearchParams(location.search);
-const id = Number(parameters.get("id"));
+// URL ➜ Parameters
+const urlParameters = new URLSearchParams(location.search);
+const id = Number(urlParameters.get("id"));
 
 // Cards
 const cardsContainer = document.getElementById("cardsContainer");

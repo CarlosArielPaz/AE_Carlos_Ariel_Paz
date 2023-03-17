@@ -36,7 +36,6 @@ searchInput.addEventListener("keyup", (event) => {
 
 // Cards
 const cardsContainer = document.getElementById("cardsContainer");
-const dataCurrentDate = new Date(data.currentDate);
 
 function cardsRender() {
   let search = searchInput.value.trim().toLowerCase();
@@ -79,11 +78,34 @@ function cardsRender() {
   // HTML (empty)
   if (html === "")
     // HTML (update)
-    html = `<p class="pt-4 w-100 text-center text-muted display-6">No event found containing ‟${searchInput.value.trim()}”...</h6>`;
+    html = `<p class="pt-4 w-100 text-center text-muted display-6">"No event found..."</h6>`;
 
   // Cards ➜ Container (update)
   cardsContainer.innerHTML = html;
 }
 
-// Cards ➜ Render (initialize)
-cardsRender();
+// Data
+let data;
+let dataCurrentDate;
+
+//fetch("https://mindhub-xj03.onrender.com/api/amazing")
+fetch("./assets/json/amazing.json")
+  .then((response) => {
+    // Response
+    if (!response.ok) throw new Error("Network response was not OK");
+
+    // JSON
+    return response.json();
+  })
+  .then((json) => {
+    // Data
+    data = json;
+    dataCurrentDate = new Date(data.currentDate);
+
+    // Cards ➜ Render (initialize)
+    cardsRender();
+  })
+  .catch((err) => {
+    // Cards ➜ Container (update)
+    cardsContainer.innerHTML = `<p class="pt-4 w-100 text-center text-muted display-6">‟${err}”...</h6>`;
+  });
