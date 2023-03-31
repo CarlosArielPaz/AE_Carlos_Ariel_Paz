@@ -9,13 +9,23 @@
   <br>
 </p>
 
+## Access to beta website
+
+<br>
+
+> **GitHub Pages**
+
+&emsp;&emsp;![commit](./assets/img/icon/commit.svg)&ensp;2023-03-31 00:15 GMT-3&ensp;Commit&emsp;➜&emsp;![pages](./assets/img/icon/pages.svg)&ensp;[https://carlosarielpaz.github.io/AE_Carlos_Ariel_Paz](https://carlosarielpaz.github.io/AE_Carlos_Ariel_Paz)
+
+<br>
+
 ## Development
 
 <br>
 
 > **Task-4**&emsp;➜&emsp;Branches and tags involved&emsp;![branch](./assets/img/icon/branch.svg)&ensp;[main](https://github.com/CarlosArielPaz/AE_Carlos_Ariel_Paz/tree/main)&emsp;![branch](./assets/img/icon/branch.svg)&ensp;[task-4](https://github.com/CarlosArielPaz/AE_Carlos_Ariel_Paz/tree/task-4)&emsp;![tag](./assets/img/icon/tag.svg)&ensp;[v0.4.0](https://github.com/CarlosArielPaz/AE_Carlos_Ariel_Paz/releases/tag/v0.4.0)
 
-&emsp;&emsp;![commit](./assets/img/icon/commit.svg)&ensp;2023-03-30 21:33 GMT-3&ensp;Commit&emsp;➜&emsp;![branch](./assets/img/icon/branch.svg)&ensp;main : Merge with task-4
+&emsp;&emsp;![commit](./assets/img/icon/commit.svg)&ensp;2023-03-30 21:33 GMT-3&ensp;Commit&emsp;➜&emsp;![branch](./assets/img/icon/branch.svg)&ensp;[main : Merge with task-4](https://github.com/CarlosArielPaz/AE_Carlos_Ariel_Paz/tree/6a317a25503fe1a8a4fca67ff73a322d33a5f234)
 
 &emsp;&emsp;![commit](./assets/img/icon/commit.svg)&ensp;2023-03-30 21:26 GMT-3&ensp;Commit&emsp;➜&emsp;![branch](./assets/img/icon/tag.svg)&ensp;[task-4 : Upload development v0.4.0](https://github.com/CarlosArielPaz/AE_Carlos_Ariel_Paz/tree/60baaa08a05fc7ae34c646fb118e928688343462)
 
