@@ -15,7 +15,9 @@
 
 > **Task-4**&emsp;➜&emsp;Branches and tags involved&emsp;![branch](./assets/img/icon/branch.svg)&ensp;[main](https://github.com/CarlosArielPaz/AE_Carlos_Ariel_Paz/tree/main)&emsp;![branch](./assets/img/icon/branch.svg)&ensp;[task-4](https://github.com/CarlosArielPaz/AE_Carlos_Ariel_Paz/tree/task-4)&emsp;![tag](./assets/img/icon/tag.svg)&ensp;[v0.4.0](https://github.com/CarlosArielPaz/AE_Carlos_Ariel_Paz/releases/tag/v0.4.0)
 
-&emsp;&emsp;![commit](./assets/img/icon/commit.svg)&ensp;2023-03-30 21:26 GMT-3&ensp;Commit&emsp;➜&emsp;![branch](./assets/img/icon/tag.svg)&ensp;task-4 : Upload development v0.4.0
+&emsp;&emsp;![commit](./assets/img/icon/commit.svg)&ensp;2023-03-30 21:33 GMT-3&ensp;Commit&emsp;➜&emsp;![branch](./assets/img/icon/branch.svg)&ensp;main : Merge with task-4
+
+&emsp;&emsp;![commit](./assets/img/icon/commit.svg)&ensp;2023-03-30 21:26 GMT-3&ensp;Commit&emsp;➜&emsp;![branch](./assets/img/icon/tag.svg)&ensp;[task-4 : Upload development v0.4.0](https://github.com/CarlosArielPaz/AE_Carlos_Ariel_Paz/tree/60baaa08a05fc7ae34c646fb118e928688343462)
 
 &emsp;&emsp;![commit](./assets/img/icon/commit.svg)&ensp;2023-02-17 18:47 GMT-3&ensp;Commit&emsp;➜&emsp;![branch](./assets/img/icon/branch.svg)&ensp;[task-4 : Improvements and changes](https://github.com/CarlosArielPaz/AE_Carlos_Ariel_Paz/tree/9a7d78d98fc60d1680cb3d95177a3800ba72a905)
 
