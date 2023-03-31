@@ -19,8 +19,8 @@ function cardRender(id) {
                     <h5 class="card-title">${element.category}</h5>
                     <h6 class="text-muted">${element.date}</h6>
                     <p class="card-text">${element.description}</p>
-                    <p class="card-text">Assistance: ${element.assistance}</p>
                     <p class="card-text">Capacity: ${element.capacity}</p>
+                    <p class="card-text">${element.assistance ? "Assistance: " + element.assistance : "Estimate: " + element.estimate}</p>
                     <p class="card-text">Place: ${element.place}</p>
                 </div>
                 <div class="card-footer d-flex flex-row justify-content-between align-items-center">

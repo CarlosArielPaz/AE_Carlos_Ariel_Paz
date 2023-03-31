@@ -4,10 +4,11 @@
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #f9f9f9;
+  box-sizing: border-box;
 }
 
 header {
-  background-color: cadetblue;
+  background-color: #5f9ea0;
   box-shadow: 2px 2px 4px #ddd;
 }
 
@@ -51,6 +52,42 @@ header {
 
 #cardsContainer .card-shadow {
   box-shadow: 2px 2px 4px #ddd;
+}
+
+#cardsContainer > div {
+  transition: all 0.5s;
+}
+#cardsContainer > div:hover {
+  transform: scale(1.025);
+}
+
+#statisticsEventContainer > table {
+  table-layout: fixed;
+}
+#statisticsEventContainer > table > caption {
+  color: #d90368;
+}
+
+#statisticsEventContainer > table > thead > tr {
+  background-color: #5f9ea01f;
+  color: #444;
+}
+
+#statisticsEventContainer > table > thead > tr > th,
+#statisticsEventContainer > table > tbody > tr > td {
+  padding: 0.75em 1em;
+  vertical-align: middle;
+}
+
+.btn-details {
+  background-color: #5f9ea01f;
+  border: 2px solid #5f9ea03f;
+  transition: all 0.25s;
+}
+
+.btn-details:hover {
+  background-color: #5f9ea01f;
+  border: 2px solid #5f9ea0;
 }
 
 .footer {

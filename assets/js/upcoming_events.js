@@ -71,7 +71,7 @@ function cardsRender() {
                     </div>
                     <div class="card-footer d-flex flex-row justify-content-between align-items-center">
                         <h6 class="text-muted">Price $${element.price}</h6>
-                        <a href="./details.html?id=${element._id}" class="btn btn-primary">Details</a>
+                        <a href="./details.html?id=${element._id}" class="btn btn-details">Details</a>
                     </div>
                 </div>
             </div>
@@ -95,10 +95,13 @@ let dataCurrentDate;
 fetch("./assets/json/amazing.json")
   .then((response) => {
     // Response
-    if (!response.ok) throw new Error("Network response was not OK");
-
-    // JSON
-    return response.json();
+    if (response.status === 200) {
+      // JSON
+      return response.json();
+    } else {
+      // Error
+      throw new Error("Something went wrong on API server!");
+    }
   })
   .then((json) => {
     // Data
@@ -110,5 +113,5 @@ fetch("./assets/json/amazing.json")
   })
   .catch((err) => {
     // Cards ➜ Container (update)
-    cardsContainer.innerHTML = `<p class="pt-4 w-100 text-center text-muted display-6">‟${err}”...</h6>`;
+    cardsContainer.innerHTML = `<p class="pt-4 w-100 text-center text-muted display-6">‟${err}”</h6>`;
   });
